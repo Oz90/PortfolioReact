@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { FaGithub, FaFacebook, FaLinkedin, FaAt } from "react-icons/fa";
+import { FaGithub, FaFacebook, FaLinkedin, FaEnvelope } from "react-icons/fa";
 
 export default function Footer() {
   return (
@@ -32,7 +32,7 @@ export default function Footer() {
         <div className="social">
           <h3>Get in touch!</h3>
           <a href="mailto:ozgur.baserdem@hotmail.com?subject=Title&body=Message">
-            <FaAt size={30} />
+            <FaEnvelope size={30} />
           </a>
           <a href="https://github.com/Oz90/">
             <FaGithub size={30} />
