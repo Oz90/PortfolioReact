@@ -3,8 +3,8 @@ import { Link } from "react-router-dom";
 
 export default function Footer() {
   return (
-    <footer class="footer bg-dark">
-      <div class="container grid grid-3">
+    <footer className="footer bg-dark">
+      <div className="container grid grid-3">
         <div>
           <h1>Özgür Baserdem</h1>
           <p>Copyright &copy; 2020</p>
@@ -28,19 +28,19 @@ export default function Footer() {
             </li>
           </ul>
         </nav>
-        <div class="social">
+        <div className="social">
           <h3>Get in touch!</h3>
           <a href="mailto:ozgur.baserdem@hotmail.com?subject=Title&body=Message">
-            <i class="fas fa-at fa-2x"></i>
+            <i className="fas fa-at fa-2x"></i>
           </a>
           <a href="https://github.com/Oz90/">
-            <i class="fab fa-github fa-2x"></i>
+            <i className="fab fa-github fa-2x"></i>
           </a>
           <a href="https://www.facebook.com/ozgur.baserdem">
-            <i class="fab fa-facebook fa-2x"></i>
+            <i className="fab fa-facebook fa-2x"></i>
           </a>
           <a href="https://www.linkedin.com/in/%C3%B6zg%C3%BCr-baserdem-985b7283/">
-            <i class="fab fa-linkedin fa-2x"></i>
+            <i className="fab fa-linkedin fa-2x"></i>
           </a>
         </div>
       </div>

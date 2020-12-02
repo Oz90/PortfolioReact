@@ -3,7 +3,7 @@ import React from "react";
 export default function AboutPage() {
   return (
     <>
-      <section class="section section-light">
+      <section className="section section-light">
         <h2>About Me</h2>
         <p>
           My name is Özgür Baserdem and I'm currently an aspiring full stack web
@@ -27,13 +27,13 @@ export default function AboutPage() {
         </p>
       </section>
 
-      <div class="about-bg-img-2">
-        <div class="ptext">
-          <p class="border">Where I am now</p>
+      <div className="about-bg-img-2">
+        <div className="ptext">
+          <p className="border">Where I am now</p>
         </div>
       </div>
 
-      <section class="section section-dark">
+      <section className="section section-dark">
         <h2>Nackademin</h2>
         <p>
           So currently, I am still taking my first steps of becoming a Full
@@ -50,13 +50,13 @@ export default function AboutPage() {
         </p>
       </section>
 
-      <div class="about-bg-img-3">
-        <div class="ptext">
-          <p class="border">Where I am headed</p>
+      <div className="about-bg-img-3">
+        <div className="ptext">
+          <p className="border">Where I am headed</p>
         </div>
       </div>
 
-      <section class="section section-dark">
+      <section className="section section-dark">
         <h2>Full Stack Web Development</h2>
         <p>
           At Nackademin I am currently in the Full Stack Open Source Web

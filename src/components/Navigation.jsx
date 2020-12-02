@@ -4,9 +4,9 @@ import OzgurLogo from "../images/ozgurlogo2.png";
 
 export default function Navigation() {
   return (
-    <div class="navbar">
-      <div class="container flex">
-        <img src={OzgurLogo} alt="Ozgurs Logo" class="logo" />
+    <div className="navbar">
+      <div className="container flex">
+        <img src={OzgurLogo} alt="Ozgurs Logo" className="logo" />
         <nav>
           <ul>
             <li>
