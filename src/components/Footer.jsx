@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import { FaGithub, FaFacebook, FaLinkedin, FaAt } from "react-icons/fa";
 
 export default function Footer() {
   return (
@@ -31,16 +32,16 @@ export default function Footer() {
         <div className="social">
           <h3>Get in touch!</h3>
           <a href="mailto:ozgur.baserdem@hotmail.com?subject=Title&body=Message">
-            <i className="fas fa-at fa-2x"></i>
+            <FaAt size={30} />
           </a>
           <a href="https://github.com/Oz90/">
-            <i className="fab fa-github fa-2x"></i>
+            <FaGithub size={30} />
           </a>
           <a href="https://www.facebook.com/ozgur.baserdem">
-            <i className="fab fa-facebook fa-2x"></i>
+            <FaFacebook size={30} />
           </a>
           <a href="https://www.linkedin.com/in/%C3%B6zg%C3%BCr-baserdem-985b7283/">
-            <i className="fab fa-linkedin fa-2x"></i>
+            <FaLinkedin size={30} />
           </a>
         </div>
       </div>
